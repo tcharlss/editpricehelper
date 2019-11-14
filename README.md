@@ -1,4 +1,4 @@
-# ![logo](docs/_medias/editpricehelper.svg) Edit Price Helper
+# ![](docs/_medias/editpricehelper.svg) Edit Price Helper
 
 > A small jQuery plugin to help edit prices with taxes.
 
