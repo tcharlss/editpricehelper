@@ -196,7 +196,8 @@ onUpdate | Called after a price input has been updated
 <script>
   $('#price0').editpricehelper({ taxRateInput: '#tax0' });
   $('#price1').editpricehelper({ taxRate: '0.33' });
-  $('#price2').editpricehelper({
+  $('#price2').editpricehelper({ taxRateInput: '#tax2', taxRate: '0.33' });
+  $('#price3').editpricehelper({
         taxRate: '0.33',
         mainLabel: 'My price',
         priceNoTaxLabel: 'Before tax',
