@@ -1,5 +1,5 @@
 ![Logo](/_medias/editpricehelper.svg)
-# Edit Price Helper <small>0.1.0-alpha.1</small>
+# Edit Price Helper <small>0.1.0-alpha.2</small>
 
 > A small jQuery plugin to help edit prices with taxes.
 

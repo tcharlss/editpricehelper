@@ -1,5 +1,5 @@
 /**
- * Edit Price Helper 0.1.0-alpha.1
+ * Edit Price Helper 0.1.0-alpha.2
  * A small jQuery plugin to help edit prices with taxes.
  * (c) 2019 tcharlss
  * MIT license
