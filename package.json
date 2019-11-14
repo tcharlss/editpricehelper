@@ -1,0 +1,61 @@
+{
+  "name": "editpricehelper",
+  "title": "Edit Price Helper",
+  "description": "A small jQuery plugin to help edit prices with taxes.",
+  "keywords": [
+    "price",
+    "helper",
+    "tax",
+    "input"
+  ],
+  "version": "0.1.0-alpha.1",
+  "author": {
+    "name": "tcharlss"
+  },
+  "maintainers": [
+    {
+      "name": "tcharlss",
+      "email": "bonjour@bravecassine.com",
+      "url": "https://bravecassine.com"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://tcharlss.github.io/editpricehelper/",
+  "docs": "https://tcharlss.github.io/editpricehelper/",
+  "download": "https://github.com/tcharlss/editpricehelper/releases",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcharlss/editpricehelper.git"
+  },
+  "unpkg": "dist/jquery.editpricehelper.min.js",
+  "peerDependencies": {
+    "jquery": ">=3.4.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.0",
+    "grunt": "^1.0.4",
+    "grunt-bump": "^0.8.0",
+    "grunt-contrib-compass": "~1.0.3",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-postcss": "^0.9.0",
+    "jshint-stylish": "~2.0.1",
+    "load-grunt-tasks": "^5.1.0",
+    "parallelshell": "^2.0.0",
+    "time-grunt": "^1.2.2"
+  },
+  "scripts": {
+    "test": "grunt jshint",
+    "build": "grunt build"
+  },
+  "files": [
+    "dist"
+  ],
+  "browserslist": [
+    "last 2 versions",
+    "> 1%"
+  ]
+}

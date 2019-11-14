@@ -1,0 +1,34 @@
+{
+    "name": "editpricehelper",
+    "description": "A small jQuery plugin to help edit prices with taxes.",
+    "title": "Edit Price Helper",
+    "version": "0.1.0-alpha.1",
+    "authors": [
+        "tcharlss <bonjour@bravecassine.com>",
+    ],
+    "main": "dist/jquery.editpricehelper.js",
+    "keywords": [
+        "price",
+        "helper",
+        "tax",
+        "input"
+    ],
+    "license": "MIT",
+    "homepage": "https://tcharlss.github.io/editpricehelper/",
+    "docs": "https://tcharlss.github.io/editpricehelper/",
+    "download": "https://github.com/tcharlss/editpricehelper/releases",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tcharlss/editpricehelper.git"
+    },
+    "dependencies": {
+        "jquery": ">=3.0"
+    }
+}
