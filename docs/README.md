@@ -9,9 +9,10 @@ Say you have a no-tax price input and another one for the tax rate on a form: th
 The styles provided are the bare minimum in order to be as unobstrusive as possible.
 
 So for instance, the script turns this:
-<div>
+<div class="example">
 <label for="example0">No-tax Price</label>
 <input id="example0" name="a" type="number" value="" steps="0.01" min="0">
+<label for="taxexample0">Tax rate</label>
 <select id="taxexample0" name="tax">
 <option value="">Default</option>
 <option value="0">0%</option>
@@ -21,6 +22,7 @@ So for instance, the script turns this:
 </div>
 
 Into something like this:
+<div class="example">
 <div class="form-control">
 <label for="price0" class="form-label">No-tax Price</label>
 <div class="form-input">
@@ -37,6 +39,7 @@ Into something like this:
 <option value="0.125">12.5%</option>
 <option value="0.2">20%</option>
 </select>
+</div>
 </div>
 </div>
 
@@ -83,9 +86,11 @@ The tax rate can be either editable with an existing input, or a fixed value giv
 
 If there's no input for the tax, you need to give a default one with the `taxRate` option.
 
+<div class="example">
 <div class="form-control">
 <label for="price1">No-tax Price</label>
 <input id="price1" name="price1" type="number" value="10" steps="0.01" min="0">
+</div>
 </div>
 
 ```javascript
@@ -98,6 +103,7 @@ $('#price').editpricehelper({
 
 Sometimes you can have a default tax rate applied if the input is empty. In that case use the `taxRateInput` *and* the`taxRate` options a the same time.
 
+<div class="example">
 <div class="form-control">
 <label for="price2">No-tax Price</label>
 <input id="price2" name="price2" type="number" value="10" steps="0.01" min="0">
@@ -114,6 +120,7 @@ Sometimes you can have a default tax rate applied if the input is empty. In that
 </select>
 </div>
 </div>
+</div>
 
 ```javascript
 $('#price').editpricehelper({
@@ -126,9 +133,11 @@ $('#price').editpricehelper({
 
 All the labels can be changed, and the tax amount can be hidden:
 
+<div class="example">
 <div class="form-control">
 <label for="price3">No-tax Price</label>
 <input id="price3" name="price3" type="number" value="10" steps="0.01" min="0">
+</div>
 </div>
 
 ```javascript
@@ -144,7 +153,7 @@ $('#price').editpricehelper({
 ## Options
 
 Option       | Type | Default | Values
------------- | ----------- | --------
+------------ | ----------- | -------- | ------
 priceType        | `string` | 'notax' | Type of price of the main input: `notax` `tax`
 otherPriceInput  | `string` | null  | Selector of an existing input containing the complementary price. Otherwise, it will be created.
 taxRateInput     | `string` | null  | Selector of an existing input containing the tax rate. Otherwise, a default taxe rate is needed.
@@ -216,4 +225,5 @@ input:focus { border-color: #3e31f8; }
     font-size: 0.9em;
 }
 .price__input { flex: 1 1 auto; }
+.example { padding-left: 1em; border-left: 2px solid #8727b3 }
 </style>
