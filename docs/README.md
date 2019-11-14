@@ -2,6 +2,8 @@
 
 > A small jQuery plugin to help edit prices with taxes.
 
+> Caution, still in alpha!
+
 The goal of this script is to give a real-time feedback of the taxes when you edit a price.
 
 Say you have a no-tax price input and another one for the tax rate on a form: the script will add an all taxes included price input and the tax amount, keeping all values in sync. The added inputs are just here to help fill the original inputs, their values are not meant to be posted.
@@ -10,14 +12,13 @@ The styles provided are the bare minimum in order to be as unobstrusive as possi
 
 So for instance, the script turns this:
 <div class="example">
-<div>
+<div class="form-control">
 <label for="example0">No-tax Price</label>
 <input id="example0" name="a" type="number" value="" steps="0.01" min="0">
 </div>
-<div>
+<div class="form-control">
 <label for="taxexample0">Tax rate</label>
 <select id="taxexample0" name="tax">
-<option value="">Default</option>
 <option value="0">0%</option>
 <option value="0.125">12.5%</option>
 <option value="0.2">20%</option>
@@ -38,7 +39,6 @@ Into something like this:
 <label for="tax0" class="form-label">Tax Rate</label>
 <div class="form-input">
 <select id="tax0" name="tax0">
-<option value="">Default</option>
 <option value="0">0%</option>
 <option value="0.125">12.5%</option>
 <option value="0.2">20%</option>
