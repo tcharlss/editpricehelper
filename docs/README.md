@@ -89,7 +89,9 @@ If there's no input for the tax, you need to give a default one with the `taxRat
 <div class="example">
 <div class="form-control">
 <label for="price1">No-tax Price</label>
+<div class="form-input">
 <input id="price1" name="price1" type="number" value="10" steps="0.01" min="0">
+</div>
 </div>
 </div>
 
@@ -106,7 +108,9 @@ Sometimes you can have a default tax rate applied if the input is empty. In that
 <div class="example">
 <div class="form-control">
 <label for="price2">No-tax Price</label>
+<div class="form-input">
 <input id="price2" name="price2" type="number" value="10" steps="0.01" min="0">
+</div>
 </div>
 
 <div class="form-control">
@@ -136,7 +140,9 @@ All the labels can be changed, and the tax amount can be hidden:
 <div class="example">
 <div class="form-control">
 <label for="price3">No-tax Price</label>
+<div class="form-input">
 <input id="price3" name="price3" type="number" value="10" steps="0.01" min="0">
+</div>
 </div>
 </div>
 
@@ -225,5 +231,5 @@ input:focus { border-color: #3e31f8; }
     font-size: 0.9em;
 }
 .price__input { flex: 1 1 auto; }
-.example { padding-left: 1em; border-left: 2px solid #8727b3 }
+.example { padding-left: 1em; border-left: 4px solid hsl(0, 0%, 66%) }
 </style>
