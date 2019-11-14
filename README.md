@@ -8,6 +8,4 @@ Say you have a no-tax price input and another one for the tax rate on a form: th
 
 ![preview](docs/_medias/editpricehelper_on.png)
 
-* ~2.3kB gzipped
-
 **[Check the documentation](https://tcharlss.github.io/editpricehelper/) to get started and see some examples.**
