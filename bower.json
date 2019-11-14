@@ -4,7 +4,7 @@
     "title": "Edit Price Helper",
     "version": "0.1.0-alpha.1",
     "authors": [
-        "tcharlss <bonjour@bravecassine.com>",
+        "tcharlss <bonjour@bravecassine.com>"
     ],
     "main": "dist/jquery.editpricehelper.js",
     "keywords": [
