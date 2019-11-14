@@ -10,8 +10,11 @@ The styles provided are the bare minimum in order to be as unobstrusive as possi
 
 So for instance, the script turns this:
 <div class="example">
+<div>
 <label for="example0">No-tax Price</label>
 <input id="example0" name="a" type="number" value="" steps="0.01" min="0">
+</div>
+<div>
 <label for="taxexample0">Tax rate</label>
 <select id="taxexample0" name="tax">
 <option value="">Default</option>
@@ -19,6 +22,7 @@ So for instance, the script turns this:
 <option value="0.125">12.5%</option>
 <option value="0.2">20%</option>
 </select>
+</div>
 </div>
 
 Into something like this:
@@ -219,6 +223,9 @@ input:focus { border-color: #3e31f8; }
     width: 100%;
     margin-bottom: 2em;
 }
+.form-control > label {
+    padding-right: 2em;
+}
 .form-label { flex: 0 0 6em; }
 .form-input { flex: 1 0 auto; }
 .price {
@@ -232,5 +239,9 @@ input:focus { border-color: #3e31f8; }
     font-size: 0.9em;
 }
 .price__input { flex: 1 1 auto; }
-.example { padding-left: 1em; border-left: 4px solid hsl(0, 0%, 66%) }
+.example {
+    max-width: 30em;
+    padding-left: 1em;
+    border-left: 4px solid hsl(0, 0%, 66%)
+}
 </style>
