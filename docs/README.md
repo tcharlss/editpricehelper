@@ -50,7 +50,7 @@ Into something like this:
 ## Installation
 
 * Via [npm](https://www.npmjs.org/) : ```npm install --save editpricehelper```
-* Download manually on [Github](https://github.com/tcharlss/editpricehelper/releases/tag/v0.1.0-alpha.2)
+* Download manually on [Github](https://github.com/tcharlss/editpricehelper/releases/tag/v0.1.0-alpha.3)
 
 The script is also hosted on CDNs like [unpkg](https://unpkg.com/editpricehelper) or [jsdelivr](https://www.jsdelivr.com/package/npm/editpricehelper?path=dist)
 

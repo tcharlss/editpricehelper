@@ -27,9 +27,7 @@
             taxRateClass:        'price price_tax-rate',
             taxRateDisplayClass: 'price__tax-rate',
             labelClass:          'price__label',
-            inputClass:          'price__input',
-            // Debug
-            debug:               false,
+            inputClass:          'price__input'
         };
 
     /**

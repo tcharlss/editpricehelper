@@ -2,7 +2,7 @@
     "name": "editpricehelper",
     "description": "A small jQuery plugin to help edit prices with taxes.",
     "title": "Edit Price Helper",
-    "version": "0.1.0-alpha.2",
+    "version": "0.1.0-alpha.3",
     "authors": [
         "tcharlss <bonjour@bravecassine.com>"
     ],
