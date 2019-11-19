@@ -406,17 +406,19 @@
      * @return {Number} float - Default = 0
      */
     Plugin.prototype.getTaxRate = function () {
-        var taxRate;
+        var
+            taxRate,
+            taxRateOptions = Number.parseFloat(this.options.taxRate) || 0;
 
         // Without input, we take the default tax
         if (!this.hasTaxRateInput) {
-            taxRate = this.options.taxRate;
+            taxRate = taxRateOptions;
         // Otherwise we take the input value
         } else {
             taxRate = Number.parseFloat(this.$inputs.taxRate.val()) || 0;
             // If the input is empty, there can be a default taxe rate
-            if (!Number.isNumeric(taxRate) && this.options.taxRate) {
-                taxRate = this.options.taxRate;
+            if (!Number.isNumeric(this.$inputs.taxRate.val()) && this.options.taxRate) {
+                taxRate = taxRateOptions;
             }
         }
         // taxRate = taxRate.toFixed(2);
